@@ -1,0 +1,127 @@
+Prefix: '&6&lKOTH &c»&e'
+Koth:
+  StartedCamping:
+    enabled: true
+    txt: '%prefix% &6%player%&e megkezdte a foglalást. &6[&f%time%&6]&e.'
+  Camping:
+    enabled: true
+    txt: '%prefix% &6%player%&e foglalja. &4[&f%koth%&4] &6[&f%time%&6]&e.'
+  Camped:
+    enabled: true
+    txt: '%prefix% &6%player%&e sikeresen elfoglalta. &4[&f%koth%&4] &2[&f%uptime%&2]&e.'
+  LostControl:
+    enabled: true
+    txt: '%prefix% &cA foglalás megszakadt. &4[&f%koth%&4]'
+  StartedKoth:
+    enabled: true
+    txt: '%prefix% &6%koth%&e megkezdődött. &6[&f%time%&6]'
+  StoppedKoth:
+    enabled: true
+    txt: '%prefix% &cMegállítva! &4[&f%koth%&4] &2[&f%uptime%&2]&e'
+  timeUp:
+    enabled: true
+    txt: '%prefix% &cLejárt az idő! &4[&f%koth%&4] &2[&f%uptime%&2]&e'
+# Változók: %player% %koth% %prefix% %args% %time% %uptime%
+Config:
+  kothCreated:
+    enabled: true
+    txt: '%prefix% &7Koth &a%koth%&7 created'
+  AlreadyKoth:
+    enabled: true
+    txt: '%prefix% &cKoth already exists'
+  AlreadyStarted:
+    enabled: true
+    txt: '%prefix% &cKoth already started'
+  BadUse:
+    enabled: true
+    txt: '%prefix% &7Usage:&r %args%'
+  p1:
+    enabled: true
+    txt: '%prefix% &aPoint 1&7 established for %koth%'
+  p2:
+    enabled: true
+    txt: '%prefix% &aPoint 2&7 established for %koth%'
+  NoExists:
+    enabled: true
+    txt: '%prefix% &7Koth &a%koth%&7 no exists!'
+  Removed:
+    enabled: true
+    txt: '%prefix% &cKoth &7%koth%&c removed!'
+  NoEnabled:
+    enabled: true
+    txt: '%prefix% &7%koth%&c is not enabled!, use /koth enable <koth>'
+  Started:
+    enabled: true
+    txt: '%prefix% &aKoth &7%koth%&a started!'
+  NoActiveKoths:
+    enabled: true
+    txt: '%prefix% &cFor the moment there aren''t enabled koths!'
+  NoSearch:
+    enabled: true
+    txt: '%prefix%&c it was not found a koth called &7%koth%&c enabled!'
+  Enabled:
+    enabled: true
+    txt: '%prefix%&a Koth &7%koth%&a enabled!'
+  NoExistsEnabled:
+    enabled: true
+    txt: '%prefix%&c Koth &7%koth%&c no exits or are not ready for enable, remember set all points /koth help'
+  InspectorMode:
+    enabled: true
+    txt: '%prefix%&a Now you are in inspector mode!, use your &eInspect Axe&a for establish points 1 and 2'
+  ExitInspectorMode:
+    enabled: true
+    txt: '%prefix%&c You leave of inspector mode'
+  OpenInventory:
+    enabled: true
+    txt: '%prefix%&a Inventory openned'
+  SetItemsInventory:
+    enabled: true
+    txt: '%prefix%&a Reward established!'
+  SetTime:
+    enabled: true
+    txt: '%prefix%&a Time established!'
+  WorldError:
+    enabled: true
+    txt: '%prefix% &cWorld no exists!'
+  scheduleCreated:
+    enabled: true
+    txt: '%prefix% &aSchedule created!'
+  scheduleRemoved:
+    enabled: true
+    txt: '%prefix% &cSchedule removed!'
+  scheduleNoExists:
+    enabled: true
+    txt: '%prefix% &7Schedule no exists!'
+  Disabled:
+    enabled: true
+    txt: '%prefix%&c Koth &7%koth%&c disabled!'
+  Stopped:
+    enabled: true
+    txt: '%prefix% &cKoth &7%koth%&c stopped!'
+  Reloaded:
+    enabled: true
+    txt: '%prefix% &aConfig & messages reloaded!'
+  ModeSet:
+    enabled: true
+    txt: '%prefix% &aMode &7%args%&a established for %koth%'
+  DurationSet:
+    enabled: true
+    txt: '%prefix% &aDuration established for %koth%'
+  RewardAdded:
+    enabled: true
+    txt: '%prefix% &aReward added for %koth%'
+  RewardsCleared:
+    enabled: true
+    txt: '%prefix% &aRewards cleared for %koth%'
+  ListHeader:
+    enabled: true
+    txt: '%prefix% &7Koth list &7(&e%args%&7):'
+  ListEntry:
+    enabled: true
+    txt: ' &8- &6%koth% &7| &f%args%'
+  NotPlayer:
+    enabled: true
+    txt: '%prefix% &cThis command can only be executed by a player!'
+  NoPermission:
+    enabled: true
+    txt: '%prefix% &cYou do not have permission to do this!'

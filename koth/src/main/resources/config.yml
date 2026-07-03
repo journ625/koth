@@ -1,0 +1,27 @@
+# ==========================================
+#              FluxKoth config.yml
+# ==========================================
+
+settings:
+  # A "Foglaló Balta" (Inspector Axe) anyaga - ezzel jelölik ki a pontokat WorldEdit-szerűen
+  inspector-axe-material: GOLDEN_AXE
+  inspector-axe-name: "&6&lFluxKoth Foglaló Balta"
+  inspector-axe-lore:
+    - "&7Bal klikk: &e1. pont"
+    - "&7Jobb klikk: &e2. pont"
+  # BossBar beállítások
+  bossbar:
+    enabled: true
+    color: YELLOW
+    style: SOLID
+  # A tick task futási sebessége (szerver tick-ekben, 20 = 1 mp)
+  update-interval-ticks: 20
+  # Ha true, a KOTH régión kívülre menő játékos automatikusan megszakítja a foglalást
+  strict-area-check: true
+  # Hány másodpercenként írja ki a "Camping" (folyamatban lévő foglalás) üzenetet a chatbe.
+  # A "StartedCamping" (foglalás megkezdése) üzenet mindig azonnal kiíródik, ez csak az
+  # ismétlődő "foglalja..." üzenetet ritkítja, hogy ne spammeljen minden másodpercben.
+  camping-message-interval-seconds: 25
+
+# A koth-ok ide kerülnek mentésre, ne szerkeszd kézzel a plugin futása közben
+koths: {}

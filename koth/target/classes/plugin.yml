@@ -1,0 +1,24 @@
+name: FluxKoth
+main: com.flux.koth.FluxKoth
+version: 1.0.0
+api-version: 1.18
+author: Flux
+description: King of the Hill / Capture Point plugin with axe-based region selection, scheduler, points & time modes, item/command rewards and full PlaceholderAPI support.
+softdepend: [PlaceholderAPI]
+
+commands:
+  koth:
+    description: FluxKoth main command
+    usage: /koth help
+    aliases: [fluxkoth, kothadmin, sp]
+    permission: fluxkoth.admin
+
+permissions:
+  fluxkoth.admin:
+    description: Access to all FluxKoth admin commands
+    default: op
+  fluxkoth.*:
+    description: Grants all FluxKoth permissions
+    default: op
+    children:
+      fluxkoth.admin: true
